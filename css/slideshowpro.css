@@ -1,0 +1,269 @@
+#ssp-settings-head {
+	margin-top:14px;
+}
+
+#ssp-settings-head h2 {
+	margin:0;
+	padding:0;
+	line-height:48px;
+}
+
+#ssp-settings-head div.ssp-icon {
+	float:left;
+	height:48px;
+	width:48px;
+	margin:0 6px 0 0;
+	background:transparent url(img/ssp_green_48.png) 0 0 no-repeat;
+}
+
+div#ssp-navigation {
+	padding:20px 0;
+	margin:0 20px;
+	float:left;
+	width:630px;
+}
+
+div#ssp-navigation h3 {
+	margin:0;
+}
+
+div#ssp-navigation select {
+	font-size:11px;
+	height:2em;
+	padding:2px;
+}
+
+#ssp-albums-select {
+	float:left;
+	margin:20px 0 0 0;
+}
+	
+#ssp-albums-sort {
+	float:right;
+	margin:20px 0 0 0;
+}
+	
+div#ssp_album {
+	width:640px;
+	height:528px;
+	margin:0 0 0 12px;
+	float:left;
+}
+
+div#ssp_album ul li {
+	margin:0 8px 20px 8px;
+	padding:0;
+	float:left;
+	list-style: none;
+	width:112px;
+	height:112px;
+	position:relative;
+}
+
+div#ssp_album ul li span {
+	line-height:0;
+	display:table-cell;
+	vertical-align:middle;
+	width:112px;
+	height:112px;
+	text-align:center;
+}
+
+div#ssp_album div.tpreview {
+	margin:0 auto;
+	position:relative;
+}
+	
+div#ssp-pages {
+	width:630px;
+	margin:0 20px;
+}
+
+div#ssp-pages .tablenav .tablenav-pages a, div#ssp-pages .tablenav-pages span.current {
+	margin:0 2px !important;
+}
+
+div#ssp-loading {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: table;
+	z-index: 99999;
+	background: rgb(255, 255, 255) url(img/ajax-loader.gif) no-repeat center center;
+	background: rgba(255, 255, 255, 0.8) url(img/ajax-loader.gif) no-repeat center center;
+	/* IE 5-7 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF)";
+	cursor:wait;
+	display:none;
+}
+
+div#ssp-insert-form {
+	position: fixed;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.8);
+	/* IE 5-7 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF)";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: table;
+	z-index: 99999;
+	display:none;
+}
+
+div#ssp-insert-form div#ssp-insert-table {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 1.0);
+	width:500px;
+	margin:0 auto;
+	padding:17px 20px 10px 20px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	z-index: 100000;
+	position:relative;
+}
+
+div#ssp-insert-table div#ssp-thumb-image {
+	position:relative;
+	float:left;
+	line-height:0;
+}
+
+div#ssp-insert-table div#ssp-thumb-image img {
+	max-height:80px;
+	max-width:80px;
+}
+
+div#ssp-insert-table a#ssp-close {
+	float:right;
+}
+
+div#ssp-insert-table h3 {
+	margin-top:0;
+}
+
+div#ssp-insert-table label {
+	font-weight:bold;
+	vertical-align:bottom;
+}
+
+div#ssp-insert-table input.wide-input {
+	width:100%;
+}
+
+div#ssp-insert-table input.small-input {
+	font-size:11px;
+	padding:2px 3px 1px;
+}
+
+div#ssp-insert-table table tr.align td.options label {
+	margin:0 1em 0 0;
+	display:inline;
+	padding:0 0 0 22px;
+	font-weight:bold;
+}
+
+div#ssp-insert-table table.outer-table {
+	width:100%;
+	border:0;
+}
+
+div#ssp-insert-table table.outer-table td {
+	padding:0 0 8px 0;
+}
+
+div#ssp-insert-table table.inner-table {
+	width:100%;
+	border:0;
+}
+
+div#ssp-insert-table table.inner-table td {
+	padding:0 0 7px 0;
+	vertical-align:top;
+}
+
+div#ssp-insert-table table.inner-table td.col-2 {
+	padding-left:8px;
+}
+
+div#ssp-insert-table table tr td.bttns {
+	padding-top:15px;
+}
+
+div.ssp-vid-overlay, div.ssp-vid-overlay-large {
+	position:absolute;
+	z-index:1;
+    width:17px;
+    height:15px;
+    bottom:0;
+	right:0;
+    background:transparent url(img/vid-thumb-icon.png) 0 0 no-repeat;
+}
+
+.help label {
+	padding:10px 0;
+}
+
+label.sub-opt {
+	font-size:11px;
+	font-weight:normal !important;
+}
+
+a.ssp-close-win {
+	width:15px;
+	height:15px;
+	display:block;
+	background:transparent url(img/window-close.png) 0 0 no-repeat;
+}
+
+/* Borrows from WordPress control panel style*/
+table.form-table th label {
+	font-size:13px;
+	color:#222;
+}
+
+/* For IE -- needs pushing */
+table.ssp_form-table input[type="checkbox"] {
+	border:0 !important;
+}
+
+span.messenger-bttns {
+	display: block;
+	float: right;
+	clear: left;
+	margin-top: 12px;
+}
+
+input.align {
+	padding-left:22px !important;
+	line-height:18px;
+	margin-right:13px;
+}
+
+p.ssp-error {
+	text-align: center;
+	color: #FF0000;
+}
+
+div.ssp-form-warn {
+	background:#ffffe0 url(img/icon-warn-16.png) 8px 50% no-repeat;
+	padding:4px 0;
+	border:1px solid #e6db55;
+	margin-top:10px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+
+div.ssp-form-warn span {
+	padding:0 8px 0 30px;
+	font-size:12px;
+}
